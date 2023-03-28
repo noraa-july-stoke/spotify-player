@@ -1,3 +1,7 @@
+/* Wrapper */
+.main-wrapper {
+  padding-bottom: 2em;
+}
 /** Now Playing **/
 .now-playing__name {
   font-size: 1.5em;

@@ -24,12 +24,14 @@ const Player = (props) => {
   //   VARIABLE DECLARATIONS, INITIALIZERS,
   //   STATE VARIABLE ASSIGNMENTS, INLINE STYLE OBJ.
   //=================================================
+  console.log(props.item)
   const backgroundStyles = {
     backgroundImage: `url(${props.item.album.images[0].url})`,
   };
   const progressBarStyles = {
-    width: (props.progress_ms * 100) / props.item.duration_ms + "%",
+    width: (props.progressMs * 100) / props.item.duration_ms + "%",
   };
+  // console.log(props)
   //====================================
   //              HOOKS
   //====================================
